@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/index4/index4",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ff7f50",
+    "navigationBarTitleText": "逛吃逛吃",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#f5f5f5",
+    "onReachBottomDistance":50
+  },
+  "tabBar": {
+    "color":"#ff7f50",
+    "backgroundColor":"#f5f5f5",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "美食",
+      "iconPath": "img/美食2.png",
+      "selectedIconPath": "img/美食.png"
+    },
+    {
+      "pagePath": "pages/index2/index2",
+      "text": "酒店",
+      "iconPath": "img/酒店.png",
+      "selectedIconPath": "img/床.png"
+    },
+    {
+      "pagePath": "pages/index3/index3",
+      "text": "机票",
+      "iconPath": "img/飞机.png",
+      "selectedIconPath": "img/飞机2.png"
+    },
+    {
+      "pagePath": "pages/index4/index4",
+      "text": "我的",
+      "iconPath": "img/我的.png",
+      "selectedIconPath": "img/我的2.png"
+    }]
+  }
+}
